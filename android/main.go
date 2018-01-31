@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"time"
 
-	jump "github.com/faceair/youjumpijump"
+	jump "youjumpijump"
 )
 
 func screenshot() image.Image {

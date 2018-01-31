@@ -12,13 +12,13 @@ import (
 	"runtime/debug"
 	"time"
 
-	jump "github.com/faceair/youjumpijump"
+	jump "youjumpijump"
 )
 
 var r = jump.NewRequest()
 
 type ScreenshotRes struct {
-	Value     string `json:"value"`
+	Value     string `json:"value"` // 反引号用于定义json形式中的key值，"-"代表不加入json
 	SessionID string `json:"sessionId"`
 	Status    int    `json:"status"`
 }

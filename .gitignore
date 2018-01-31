@@ -1,3 +1,5 @@
 jump*.png
 debugger
 youjumpijump-*
+*.iml
+.idea/
